@@ -153,6 +153,8 @@ h1 {
 	/* font-stretch: initial; */
 	font-size: 16px;
 }
+
+/*Navigation styling*/
 .nav-bar {
 	width: 60%;
 }
@@ -178,6 +180,14 @@ nav a:hover {
 	background-color: rgb(24, 179, 140);
 	color: white;
 }
+
+/*front page image*/
+
+.front-image img {
+	height: 453px;
+	width: 100%;
+}
+
 
 /*=================================
   Header styling ends here
