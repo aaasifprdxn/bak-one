@@ -103,14 +103,81 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
+
+.container {
+	width: 100%;
+}
 /*=================================
   Header styling starts here
 =================================*/
+header {
+	height: 95px;
+	width: 100%;
+	display: flex;
+}
 
+.bak-one-logo {
+	width: 40%;
+}
 
+.bak-one-logo a {
+	display: flex;
+	/*width: 40%;*/
+ /* height: auto;*/
+}
 
+.bak-one-logo a img {
+	width: 63px;
+	height: 48px;
+	padding: 26px 18px 2px 46px;
+}
 
+#heading {
+	margin-top: 33px;
+}
 
+h1 {
+	font-size: 24px;
+	color: black;
+	/* width: 105px; */
+	padding-top: 1px;
+	margin-top: -4px;
+	margin-bottom: -7px;
+	text-transform: uppercase;
+}
+
+#heading p {
+	color: black;
+	text-transform: capitalize;
+	padding-top: 2px;
+	/* font-stretch: initial; */
+	font-size: 16px;
+}
+.nav-bar {
+	width: 60%;
+}
+
+nav {
+	float: right;
+	padding: 38px 83px 39px 12px;
+}
+
+nav a {
+	padding-left: 15px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #443f3f;
+	/* overflow: auto; */
+	/* padding-top: 0px; */
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+nav a:hover {
+	background-color: rgb(24, 179, 140);
+	color: white;
+}
 
 /*=================================
   Header styling ends here
