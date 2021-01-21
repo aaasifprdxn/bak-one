@@ -201,7 +201,7 @@ nav a:hover {
 
 .portfolio {
 	padding-top: 56px;
-  padding-bottom: 58px;
+	padding-bottom: 28px;
 }
 
 #portfolio-desc {
@@ -310,11 +310,101 @@ nav a:hover {
 	font-weight: 600;
 }
 
+/* about us styling*/
 
+.about {
+	background-color: #1d9e92;
+	padding-top: 56px;
+	padding-bottom: 74px;
+	padding-left: 112px;
+	padding-right: 77px;
+}
 
+.about-us h3 {
+	text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: lighter;
+	color: white;
+	text-transform: capitalize;
+}
 
+.about-us p {
+	text-align: center;
+  padding-top: 18px;
+  color: white;
+}
 
+.about-us-profile ul {
+	width: 100%;
+	display: flex;
+}
 
+.padding-fix-aboutus {
+	width: 290px;
+	height: 419px;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 44px;
+}
+
+.about-us-image {
+	width: 290px;
+	height: 227px;
+}
+.bg {
+	background-color: white;
+	color: dimgray;
+	width: 290px;
+	height: 187px;
+	padding-top: ;
+}
+
+.profile-title {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: x-large;
+	padding-top: 21px;
+}
+
+.profile-text {
+	text-align: center;
+	text-transform: capitalize;
+	font-style: italic;
+	font-weight: 500;
+	padding-bottom: 21px;
+}
+
+.profile-info {
+	padding-left: 13px;
+  padding-right: 12px;
+}
+.container-about-us {
+	position: relative;
+	height: 227px;
+}
+
+.overlay-about-us {
+	position: absolute;
+	top: 70px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	text-align: center;
+	padding-top: 26px;
+	/*transition: .3s ease;*/
+}
+
+.container-about-us:hover .overlay-about-us {
+	opacity: 0.8;
+}
+
+.overlay-social-link {
+	width: 237px;
+	height: 49px;
+	position: relative;
+}
 
 /*=================================
   main styling ends here
