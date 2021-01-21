@@ -181,14 +181,6 @@ nav a:hover {
 	color: white;
 }
 
-/*front page image*/
-
-.front-image img {
-	height: 453px;
-	width: 100%;
-}
-
-
 /*=================================
   Header styling ends here
 =================================*/  
@@ -197,6 +189,126 @@ nav a:hover {
   main styling starts here
 =================================*/
 
+
+/*front page image*/
+
+.front-image img {
+	height: 453px;
+	width: 100%;
+}
+
+/* portfolio styling */
+
+.portfolio {
+	padding-top: 56px;
+  padding-bottom: 58px;
+}
+
+#portfolio-desc {
+	text-align: center;
+  padding-top: 18px;
+  color: dimgray;
+}
+
+.portfolio-nav {
+	padding-top: 36px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.portfolio-nav li {
+	padding-left: 9px;
+	padding-right: 9px;
+}
+
+.portfolio-nav li a {
+	color: white;
+	background-color: #1d9e92;
+	/* padding: 4px; */
+	font-size: 14px;
+	font-weight: 600;
+	padding: 11px 15px 11px 15px;
+}
+
+.portfolio-image {
+	width: 227px;
+	height: 182px;
+	position: relative;
+}
+
+.portofilio-option-gallery {
+	padding-top: 55px;
+}
+.portofilio-option-gallery ul {
+	width: 100%;
+	display: flex;
+}
+.padding-fix {
+	padding-left: 80px;
+	padding-bottom: 32px;
+}
+
+.portfolio h3 {
+	text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: lighter;
+  color: #565;
+}
+
+.overlay-title {
+	color: white;
+}
+
+.overlay-text {
+	color: white;
+}
+
+.container-portfolio {
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	text-align: center;
+	padding-top: 26px;
+	/*transition: .3s ease;*/
+	background-color: rgb(24, 179, 140);
+	border-radius: 50%;
+}
+
+.container-portfolio:hover .overlay {
+	opacity: 0.8;
+}
+
+.overlay-logo {
+	width: 100%;
+	height: 10px;
+}
+
+
+.overlay-image {
+	height: 45px;
+	width: 49px;
+	margin: 10px;
+	border-radius: 50%;
+}
+.overlay-text {
+	text-transform: capitalize;
+	padding-bottom: 3px;
+	font-weight: 500;
+}
+
+.overlay-title {
+	text-transform: capitalize;
+	padding-bottom: 10px;
+	font-weight: 600;
+}
 
 
 
