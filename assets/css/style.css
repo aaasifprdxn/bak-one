@@ -406,6 +406,106 @@ nav a:hover {
 	position: relative;
 }
 
+/*Contact us styling*/
+
+.contact-us-container {
+	padding-top: 52px;
+	padding-bottom: 60px;
+}
+
+.contact-us-container h3 {
+	text-align: center;
+	text-transform: capitalize;
+	font-size: 35px;
+	font-weight: lighter;
+	color: dimgray;
+	text-transform: capitalize;
+}
+
+.contact-us-container p {
+	text-align: center;
+	padding-top: 18px;
+	color: dimgrey;
+}
+
+.contact-form{
+	padding-left: 50px;
+	width: 43%;
+}
+
+input[type=text] {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+
+input[type=email] {
+  width: 250px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+}
+
+.form-button {
+	width: 14%;
+	padding-left: 473px;
+	padding-top: 15px;
+}
+
+.in-flex {
+	display: flex;
+	padding-top: 50px;
+}
+
+h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: dimgray;
+	padding-bottom: 8px;
+}
+.contact-address-text {
+	
+}
+.contact-address-text p {
+	padding-top: 4px;
+}
+
+.icon::before {
+	display: inline-block;
+	font-style: normal;
+	font-variant: normal;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+
+.location::before {
+	font-family: "Font Awesome 5 Free"; font-weight: 900; content: "\f3c5";
+}
+
+.phone::before {
+	font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f1ea";
+}
+
+.fax::before {
+	font-family: "Font Awesome 5 Brands"; content: "\f099";
+}
+
+.email::before {
+	font-family: "Font Awesome 5 Free"; content: "\f3c5";
+}
+
+
 /*=================================
   main styling ends here
 =================================*/
